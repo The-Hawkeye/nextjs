@@ -23,10 +23,12 @@ export async function GET(request:NextRequest) {
 
 
 
-       return NextResponse.json({
-        message:"This is all about me",
-        data:data,
-        status:200
-       })
+    }catch(err:any)
+    {
+        return NextResponse.json({
+            error:err.message,
+            status:500
+        })
+    }
+}
 
-    }catch(er
