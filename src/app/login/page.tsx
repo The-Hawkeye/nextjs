@@ -45,7 +45,7 @@ export default function Login() {
     }
 
   return (
-  <div className="max-w-xs mx-auto mt-10 p-5 border border-gray-300 rounded-lg shadow-white h-full">
+  <div className="max-w-xs mx-auto mt-10 p-5 border border-gray-300 rounded-lg shadow-white  from-slate-400">
     <h1 className="text-xl mb-4">{loading ? "Processing" : "Login Page"}</h1>
 
     <label htmlFor="email" className="block mb-2">Enter your email</label>
